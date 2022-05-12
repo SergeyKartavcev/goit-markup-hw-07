@@ -1,0 +1,52 @@
+.header-contacts{
+    display: flex;
+    margin-left: auto;
+}
+
+.header-contacts__item {
+    padding-right: 30px;
+    }
+
+.header-contacts__item:last-child{
+    padding-right: 0;
+} 
+.header-contacts__icon-post{
+    display: inline-block;
+    fill: $acent-text-color;
+    fill: currentColor; 
+    margin-right: 10px;
+    padding: 0;
+}
+
+
+.header-contacts__icon-mobil{
+    width: 10px;
+    height: 16px;
+    fill: $acent-text-color;
+    fill: currentColor; 
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+.header-contacts__link{
+    color: $acent-text-color;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+    &:hover,
+    &:focus
+    {
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+    color: $primary-bg-color   
+    }
+}
+
+
+
+

@@ -9,8 +9,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-        <link rel="stylesheet" href="./css/styles.css">
-    
+        <link rel="stylesheet" href="./css/main.min.css">
     </head>
 <body> 
     <!--шапка-->
@@ -343,18 +342,18 @@
 
         <div class="form-fild"><label for="name" >Имя</label>    
         <input type="text" name="user-name" id="name" class="form-input">
-         <svg class="form-icon1"> <use href="./images/icons.svg.svg#icon-Vector1"  width="12" height="12"></use> </svg> 
+         <svg class="form-icon1"> <use href="./images/icons.svg.svg#icon-Vector1"  width="14" height="14"></use> </svg> 
         </div>
         
 
         <div class="form-fild"> <label for="tel" >Телефон</label>
         <input type="text" name="tel" id="tel" class="form-input"> 
-        <svg class="form-icon2"> <use href="./images/icons.svg.svg#icon-Vector2"  width="13" height="13"></use> </svg> 
+        <svg class="form-icon2"> <use href="./images/icons.svg.svg#icon-Vector2"  width="15" height="15"></use> </svg> 
         </div>
 
         <div class="form-fild"> <label for="email" >Почта</label>
         <input type="email" name="E-mail" id="mail" class="form-input">
-        <svg class="form-icon3"> <use href="./images/icons.svg.svg#icon-Vector3"  width="15" height="12"></use> </svg>
+        <svg class="form-icon3"> <use href="./images/icons.svg.svg#icon-Vector3"  width="17" height="14"></use> </svg>
        </div>
 
         <div class="form-fild"><label for="comment">Комментарий</label>
@@ -362,12 +361,10 @@
 
        </div>
        
-        <div class="options"><label>
-            <input type="checkbox" name="agry" value="agry" checked  class="checkbox"/>
-            <span class="form-icon-chek"></span>
-           <b class="title-chek"> Соглашаюсь с рассылкой и принимаю <span class="title-chek-part" >Условия договора</span> </b>
-          </label>
-          </div>
+       <label class="check option">
+        <input class="check__input" type="checkbox">
+        <span class="check__box"></span>
+        <b class="chek__title"> Соглашаюсь с рассылкой и принимаю <span class="title-chek-part" >Условия договора</span> </b>
      <button type="submit" class="form-button">Отправить</button>
     </form>
 
